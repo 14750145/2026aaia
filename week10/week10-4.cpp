@@ -1,0 +1,13 @@
+///week10-4.cpp交換2瓶水
+#include <stdio.h>
+int main()
+{
+///黑色的酒vs. 100%白開水
+    int a=9, b=100;///一開始
+    printf("a:%d b:%d\n", a, b);///印出來
+    ///交換一下 兩瓶做交換
+    int temp = a;///temp臨時拿個瓶子
+    a=b; ///有點押韻(頭尾押韻)
+    b=temp;
+    printf("a:%d b:%d\n", a, b);///印出來
+}
